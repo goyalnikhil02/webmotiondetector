@@ -2,7 +2,7 @@ import cv2
 
 face_cascade = cv2.CascadeClassifier("haarcascades/haarcascade_frontalface_alt2.xml")
 
-image = cv2.imread("images/tv.jpeg")#face in tv pics
+image = cv2.imread("images/tv.jpeg")#to detect the face from tv pics
 
 #image = cv2.imread("images/image3.jpeg")#group pics
 #image = cv2.imread("images/nikhil.jpeg")
